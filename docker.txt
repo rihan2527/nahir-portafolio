@@ -1,0 +1,4 @@
+docker build -t paulrios/reportesitona .
+docker push  paulrios/reportesitona
+docker pull  paulrios/reportesitona
+docker run -d --name reportesitona -p 2527:80 paulrios/reportesitona

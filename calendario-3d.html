@@ -1,0 +1,32 @@
+﻿<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendario 3D | Nahir Mestanza</title>
+    <link rel="stylesheet" href="calendar.css" />
+  </head>
+  <body>
+    <header class="calendar-nav">
+      <a class="back-link" href="index.html">Volver al portafolio</a>
+      <div class="calendar-title">Calendario 3D</div>
+      <span class="calendar-hint">Arrastra para rotar, haz clic para pasar</span>
+    </header>
+    <div id="app">
+      <div id="scene"></div>
+      <div id="ui">
+        <button id="prevBtn" aria-label="Mes anterior">Anterior</button>
+        <button id="nextBtn" aria-label="Mes siguiente">Siguiente</button>
+      </div>
+    </div>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+        }
+      }
+    </script>
+    <script type="module" src="calendar.js"></script>
+  </body>
+</html>
