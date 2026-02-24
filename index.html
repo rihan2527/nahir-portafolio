@@ -3,384 +3,719 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nahir Mestanza | Portafolio</title>
+    <title>Nahir Mestanza | Branding y Diseño Digital</title>
+    <meta
+      name="description"
+      content="Portafolio de Nahir Mestanza, diseño de branding e identidad visual digital. Estrategia, concepto y ejecución visual para marcas en crecimiento."
+    />
+    <meta property="og:title" content="Nahir Mestanza | Branding y Diseño Digital" />
+    <meta
+      property="og:description"
+      content="Diseño de branding e identidad visual digital con enfoque estratégico y conceptual."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="ejemplos/portada-album.jpg" />
+    <meta property="og:locale" content="es_ES" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#123c3a" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Manrope:wght@300;400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Sora:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="hero">
-      <nav class="nav container">
-        <div class="logo">Nahir Mestanza</div>
+    <div class="nav-wrap">
+      <nav class="nav container" aria-label="Navegación principal">
+        <a class="logo" href="#inicio">Nahir Mestanza</a>
         <div class="nav-links">
-          <a href="#sobre">Sobre mi</a>
-          <a href="#experiencia">Experiencia</a>
+          <a href="#especialidades">Especialidades</a>
           <a href="#portfolio">Portafolio</a>
-          <a class="btn small" href="cv_nahir.pdf" download>Descargar CV</a>
+          <a href="#proceso">Proceso</a>
+          <a href="#sobre">Sobre mí</a>
+          <a href="#contacto">Contacto</a>
         </div>
+        <button class="theme-toggle" type="button" aria-pressed="false">
+          Modo oscuro
+        </button>
       </nav>
-      <div class="hero-content container">
-        <div class="hero-text reveal">
-          <p class="eyebrow">Diseno Grafico Digital</p>
-          <h1>
-            Arte visual pensado para marcas y experiencias digitales con un
-            enfoque claro en detalle.
-          </h1>
+    </div>
+
+    <header id="inicio" class="hero">
+      <div class="hero-inner container">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Branding y diseño digital</p>
+          <h1>Nahir Mestanza</h1>
+          <p class="subtitle">Especialista en identidad visual para marcas emergentes.</p>
           <p class="lead">
-            Estudiante de Diseno Grafico Digital desde marzo 2025, con cerca de
-            un ano de experiencia creando piezas para redes sociales y entornos
-            digitales. Manejo Adobe Photoshop, Illustrator y Excel con macros,
-            y cuento con ingles avanzado.
+            Ayudo a marcas en crecimiento a ordenar su identidad y comunicar con
+            claridad en entornos digitales. Traduzco estrategia en sistemas
+            visuales coherentes y escalables.
           </p>
+          <p class="manifesto">No diseño piezas. Diseño identidad con intención.</p>
           <div class="hero-actions">
-            <a class="btn primary" href="#portfolio">Ver portafolio</a>
-            <a class="btn ghost" href="cv_nahir.pdf" download>Descargar CV</a>
+            <a class="btn primary" href="#portfolio">Ver proyectos</a>
+            <a class="btn secondary" href="#contacto">Contactar</a>
           </div>
           <div class="tag-row">
             <span class="tag">Photoshop</span>
-            <span class="tag">Illustrator</span>
-            <span class="tag">Excel + Macros</span>
-            <span class="tag">Branding Digital</span>
-          </div>
-        </div>
-        <div class="hero-media reveal">
-          <div class="media-stack">
-            <img
-              src="ejemplos/NAHIR_MESTANZA_A3.jpg"
-              alt="Composicion grafica en formato A3"
-              loading="lazy"
-            />
-            <img
-              src="ejemplos/portada-album.jpg"
-              alt="Portada de album con estilo editorial"
-              loading="lazy"
-            />
-            <img
-              src="ejemplos/STREETWEAR.jpg"
-              alt="Poster streetwear"
-              loading="lazy"
-            />
-          </div>
-          <div class="hero-card">
-            <h3>Resumen rapido</h3>
-            <p>
-              Responsable, detallista y enfocada en seguir creciendo en el area
-              de diseno digital.
-            </p>
-            <div class="hero-card-grid">
-              <div>
-                <span class="stat">2022 - 2025</span>
-                <span class="stat-label">Freelance</span>
-              </div>
-              <div>
-                <span class="stat">2025</span>
-                <span class="stat-label">UCAL Marketing</span>
-              </div>
-              <div>
-                <span class="stat">2026</span>
-                <span class="stat-label">CACSO</span>
-              </div>
-              <div>
-                <span class="stat">Ingles</span>
-                <span class="stat-label">Nivel avanzado</span>
-              </div>
-            </div>
+            <span class="tag">Diseño profesional</span>
+            <span class="tag">Diseño + IA</span>
+            <span class="tag">Branding digital</span>
           </div>
         </div>
       </div>
     </header>
 
     <main>
-      <section id="sobre" class="section container reveal">
-        <div class="section-title">
-          <h2>Sobre mi</h2>
-          <p>
-            Creo piezas visuales que conectan con la audiencia, equilibrando
-            creatividad, orden y lectura de datos. Combino procesos de diseno con
-            gestion de informacion para entregar resultados consistentes.
-          </p>
-        </div>
-        <div class="info-grid">
-          <div class="info-card">
-            <h3>Herramientas</h3>
+      <section id="especialidades" class="section">
+        <div class="container">
+          <div class="section-header reveal">
+            <p class="eyebrow">Especialidades</p>
+            <h2>Áreas donde creo valor estratégico</h2>
             <p>
-              Adobe Photoshop, Adobe Illustrator, Excel con macros, flujos de
-              trabajo para redes sociales y formatos digitales.
+              Enfoco cada proyecto en construir significado, claridad visual y
+              consistencia para marcas con ambición de crecer.
             </p>
           </div>
-          <div class="info-card">
-            <h3>Formacion</h3>
-            <p>
-              Curso complementario: "Adobe Photoshop CC desde cero: Experto en
-              Diseno Grafico" (2020).
-            </p>
-          </div>
-          <div class="info-card">
-            <h3>Fortalezas</h3>
-            <p>
-              Responsable, enfoque en detalle, adaptacion a tendencias visuales y
-              aprendizaje continuo.
-            </p>
+          <div class="specialties-grid">
+            <article class="specialty-card reveal">
+              <h3>Branding e identidad visual</h3>
+              <p>
+                Desarrollo sistemas visuales que ordenan la marca y elevan su
+                percepción en cada punto de contacto.
+              </p>
+              <span class="value">Valor: consistencia, posicionamiento y recordación.</span>
+            </article>
+            <article class="specialty-card reveal">
+              <h3>Diseño para redes sociales</h3>
+              <p>
+                Creo piezas editoriales y dinámicas que sostienen el mensaje de
+                marca y mejoran la conversión.
+              </p>
+              <span class="value">Valor: claridad, ritmo visual y engagement.</span>
+            </article>
+            <article class="specialty-card reveal">
+              <h3>Diseño editorial digital</h3>
+              <p>
+                Estructuro contenido con jerarquía tipográfica y narrativa
+                visual para comunicar ideas con impacto.
+              </p>
+              <span class="value">Valor: lectura fluida y coherencia conceptual.</span>
+            </article>
           </div>
         </div>
       </section>
 
-      <section id="experiencia" class="section container reveal">
-        <div class="section-title">
-          <h2>Experiencia</h2>
-          <p>Trayectoria combinando diseno, atencion al cliente y gestion.</p>
-        </div>
-        <div class="timeline">
-          <div class="timeline-card">
-            <h3>Recepcionista - Cooperativa CACSO</h3>
-            <p class="meta">Actualidad</p>
+      <section id="caso" class="section case-study">
+        <div class="container">
+          <div class="section-header reveal">
+            <p class="eyebrow">Caso de estudio</p>
+            <h2>Calendario corporativo 3D</h2>
             <p>
-              Atencion al cliente, gestion de llamadas, manejo de correo y
-              organizacion de informacion en Excel.
+              Un proyecto que combina identidad visual, detalle técnico y una
+              experiencia digital inmersiva.
             </p>
           </div>
-          <div class="timeline-card">
-            <h3>Asistente de caja - Tottus</h3>
-            <p class="meta">Experiencia previa</p>
-            <p>
-              Atencion al cliente, manejo de pagos y control basico de
-              transacciones.
-            </p>
-          </div>
-          <div class="timeline-card">
-            <h3>Freelance - Diseno Digital</h3>
-            <p class="meta">2022 - 2025</p>
-            <p>
-              Desarrollo de publicaciones, historias y banners digitales.
-              Destaca una pieza grafica para el equipo de Marketing Digital de
-              UCAL, alineada a lineamientos de marca.
-            </p>
+          <div class="case-grid">
+            <div class="case-text reveal">
+              <div class="case-block">
+                <h3>Problema</h3>
+                <p>
+                  Una minera necesitaba un calendario corporativo con presencia
+                  premium y recordación interna.
+                </p>
+              </div>
+              <div class="case-block">
+                <h3>Objetivo</h3>
+                <p>
+                  Crear una pieza coleccionable que refleje identidad de marca y
+                  detalle en cada mes.
+                </p>
+              </div>
+              <div class="case-block">
+                <h3>Proceso</h3>
+                <p>
+                  Dirección de arte, modelado 3D y ajustes de iluminación para
+                  lograr un acabado editorial.
+                </p>
+              </div>
+              <div class="case-block">
+                <h3>Solución</h3>
+                <p>
+                  Propuesta visual con texturas y composición limpia, integrada
+                  en un recorrido interactivo.
+                </p>
+              </div>
+              <div class="case-block">
+                <h3>Resultado</h3>
+                <p>
+                  Calendario aprobado y difundido como pieza premium dentro de
+                  la empresa.
+                </p>
+              </div>
+            </div>
+            <div class="case-media reveal">
+              <img
+                src="calendario/calendario-01.jpg.jpeg"
+                alt="Mockup del calendario corporativo 3D"
+                loading="lazy"
+              />
+              <a class="btn ghost" href="calendario-3d.html">Ver recorrido 3D</a>
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="portfolio" class="section container reveal">
-        <div class="section-title">
-          <h2>Portafolio</h2>
-          <p>
-            Una seleccion de piezas para marcas, campañas y contenidos digitales.
-          </p>
-        </div>
-        <div class="featured-callout">
-          <div>
-            <p class="eyebrow">Destacado</p>
-            <h3>Primer calendario para una minera</h3>
+      <section id="portfolio" class="section">
+        <div class="container">
+          <div class="section-header reveal">
+            <p class="eyebrow">Portafolio</p>
+            <h2>Selecciones con enfoque en identidad y contenido digital</h2>
             <p>
-              Modelado 3D interactivo del calendario corporativo. Explora cada
-              mes y revisa el acabado del proyecto.
+              Proyectos organizados por categoría para mostrar criterio visual y
+              consistencia de marca.
             </p>
           </div>
-          <a class="btn primary" href="calendario-3d.html">Ver modelado 3D</a>
-        </div>
-        <div class="gallery">
-          <a class="card" href="ejemplos/carrusel-garnier.jpg" target="_blank">
-            <img
-              src="ejemplos/carrusel-garnier.jpg"
-              alt="Carrusel Garnier"
-              loading="lazy"
-            />
-            <div class="card-info">
-              <span>Carrusel Garnier</span>
-              <span>Social Media</span>
-            </div>
-          </a>
-          <a class="card" href="ejemplos/CARRUSEL-JOYERIA.jpg" target="_blank">
-            <img
-              src="ejemplos/CARRUSEL-JOYERIA.jpg"
-              alt="Carrusel Joyeria"
-              loading="lazy"
-            />
-            <div class="card-info">
-              <span>Carrusel Joyeria</span>
-              <span>Social Media</span>
-            </div>
-          </a>
-          <a
-            class="card pdf"
-            href="ejemplos/COMBO%20-%20HELLO-KITTY%20AND%20FRIENDS%20X%20KFC.pdf"
-            target="_blank"
-          >
-            <div class="pdf-thumb">
-              <span>PDF</span>
-              <span>Combo Hello Kitty x KFC</span>
-            </div>
-            <div class="card-info">
-              <span>Combo Hello Kitty x KFC</span>
-              <span>Campana</span>
-            </div>
-          </a>
-          <a class="card" href="ejemplos/FLYER-d.png" target="_blank">
-            <img src="ejemplos/FLYER-d.png" alt="Flyer" loading="lazy" />
-            <div class="card-info">
-              <span>Flyer D</span>
-              <span>Promocional</span>
-            </div>
-          </a>
-          <a
-            class="card"
-            href="ejemplos/Invitacion%20boda.png"
-            target="_blank"
-          >
-            <img
-              src="ejemplos/Invitacion%20boda.png"
-              alt="Invitacion de boda"
-              loading="lazy"
-            />
-            <div class="card-info">
-              <span>Invitacion de boda</span>
-              <span>Editorial</span>
-            </div>
-          </a>
-          <a class="card" href="ejemplos/NAHIR_MESTANZA_A3.jpg" target="_blank">
-            <img
-              src="ejemplos/NAHIR_MESTANZA_A3.jpg"
-              alt="Composicion A3"
-              loading="lazy"
-            />
-            <div class="card-info">
-              <span>Composicion A3</span>
-              <span>Editorial</span>
-            </div>
-          </a>
-          <a
-            class="card"
-            href="ejemplos/portada-album-vrs-2.jpg"
-            target="_blank"
-          >
-            <img
-              src="ejemplos/portada-album-vrs-2.jpg"
-              alt="Portada de album version 2"
-              loading="lazy"
-            />
-            <div class="card-info">
-              <span>Portada album V2</span>
-              <span>Musica</span>
-            </div>
-          </a>
-          <a class="card" href="ejemplos/portada-album.jpg" target="_blank">
-            <img
-              src="ejemplos/portada-album.jpg"
-              alt="Portada de album"
-              loading="lazy"
-            />
-            <div class="card-info">
-              <span>Portada album</span>
-              <span>Musica</span>
-            </div>
-          </a>
-          <a
-            class="card"
-            href="ejemplos/POST-IG-JEWELRY.jpg"
-            target="_blank"
-          >
-            <img
-              src="ejemplos/POST-IG-JEWELRY.jpg"
-              alt="Post IG Jewelry"
-              loading="lazy"
-            />
-            <div class="card-info">
-              <span>Post IG Jewelry</span>
-              <span>Social Media</span>
-            </div>
-          </a>
-          <a
-            class="card"
-            href="ejemplos/post-ig-jordan-2.jpg"
-            target="_blank"
-          >
-            <img
-              src="ejemplos/post-ig-jordan-2.jpg"
-              alt="Post IG Jordan"
-              loading="lazy"
-            />
-            <div class="card-info">
-              <span>Post IG Jordan</span>
-              <span>Social Media</span>
-            </div>
-          </a>
-          <a class="card" href="ejemplos/POSTER%2001.png" target="_blank">
-            <img
-              src="ejemplos/POSTER%2001.png"
-              alt="Poster 01"
-              loading="lazy"
-            />
-            <div class="card-info">
-              <span>Poster 01</span>
-              <span>Editorial</span>
-            </div>
-          </a>
-          <a
-            class="card pdf"
-            href="ejemplos/PROYECTO%20VIH%203.pdf"
-            target="_blank"
-          >
-            <div class="pdf-thumb">
-              <span>PDF</span>
-              <span>Proyecto VIH</span>
-            </div>
-            <div class="card-info">
-              <span>Proyecto VIH</span>
-              <span>Investigacion</span>
-            </div>
-          </a>
-          <a
-            class="card pdf"
-            href="ejemplos/revista-%20grafica%20digital.pdf"
-            target="_blank"
-          >
-            <div class="pdf-thumb">
-              <span>PDF</span>
-              <span>Revista grafica digital</span>
-            </div>
-            <div class="card-info">
-              <span>Revista grafica digital</span>
-              <span>Editorial</span>
-            </div>
-          </a>
-          <a class="card" href="ejemplos/STREETWEAR.jpg" target="_blank">
-            <img
-              src="ejemplos/STREETWEAR.jpg"
-              alt="Poster Streetwear"
-              loading="lazy"
-            />
-            <div class="card-info">
-              <span>Streetwear</span>
-              <span>Poster</span>
-            </div>
-          </a>
+          <div class="filter-bar" role="tablist">
+            <button
+              class="filter-btn is-active"
+              type="button"
+              data-filter="all"
+              aria-pressed="true"
+            >
+              Todos
+            </button>
+            <button
+              class="filter-btn"
+              type="button"
+              data-filter="branding"
+              aria-pressed="false"
+            >
+              Branding
+            </button>
+            <button
+              class="filter-btn"
+              type="button"
+              data-filter="social"
+              aria-pressed="false"
+            >
+              Social Media
+            </button>
+            <button
+              class="filter-btn"
+              type="button"
+              data-filter="editorial"
+              aria-pressed="false"
+            >
+              Editorial
+            </button>
+            <button
+              class="filter-btn"
+              type="button"
+              data-filter="campanas"
+              aria-pressed="false"
+            >
+              Campañas
+            </button>
+          </div>
+          <div class="portfolio-grid">
+            <a
+              class="card"
+              data-category="branding"
+              href="ejemplos/lottus-gloss.png"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="card-cover"
+                src="ejemplos/lottus-gloss.png"
+                alt="Branding Lottus Gloss"
+                loading="lazy"
+              />
+              <div class="card-overlay">
+                <span class="card-title">Lottus Gloss</span>
+                <span class="card-meta">Branding</span>
+              </div>
+            </a>
+            <a
+              class="card"
+              data-category="social"
+              href="ejemplos/carrusel-garnier.jpg"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="card-cover"
+                src="ejemplos/carrusel-garnier.jpg"
+                alt="Carrusel Garnier"
+                loading="lazy"
+              />
+              <div class="card-overlay">
+                <span class="card-title">Carrusel Garnier</span>
+                <span class="card-meta">Social Media</span>
+              </div>
+            </a>
+            <a
+              class="card"
+              data-category="social"
+              href="ejemplos/CARRUSEL-JOYERIA.jpg"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="card-cover"
+                src="ejemplos/CARRUSEL-JOYERIA.jpg"
+                alt="Carrusel Joyería"
+                loading="lazy"
+              />
+              <div class="card-overlay">
+                <span class="card-title">Carrusel Joyería</span>
+                <span class="card-meta">Social Media</span>
+              </div>
+            </a>
+            <a
+              class="card"
+              data-category="campanas"
+              href="ejemplos/COMBO%20-%20HELLO-KITTY%20AND%20FRIENDS%20X%20KFC.pdf"
+              target="_blank"
+              rel="noopener"
+            >
+              <div class="card-cover pdf">
+                <span>PDF</span>
+                <span>Combo Hello Kitty x KFC</span>
+              </div>
+              <div class="card-overlay">
+                <span class="card-title">Combo Hello Kitty x KFC</span>
+                <span class="card-meta">Campañas</span>
+              </div>
+            </a>
+            <a
+              class="card"
+              data-category="social"
+              href="ejemplos/FLYER-d.png"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="card-cover"
+                src="ejemplos/FLYER-d.png"
+                alt="Flyer D"
+                loading="lazy"
+              />
+              <div class="card-overlay">
+                <span class="card-title">Flyer D</span>
+                <span class="card-meta">Social Media</span>
+              </div>
+            </a>
+            <a
+              class="card"
+              data-category="editorial"
+              href="ejemplos/Invitacion%20boda.png"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="card-cover"
+                src="ejemplos/Invitacion%20boda.png"
+                alt="Invitación de boda"
+                loading="lazy"
+              />
+              <div class="card-overlay">
+                <span class="card-title">Invitación de boda</span>
+                <span class="card-meta">Editorial</span>
+              </div>
+            </a>
+            <a
+              class="card"
+              data-category="editorial"
+              href="ejemplos/NAHIR_MESTANZA_A3.jpg"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="card-cover"
+                src="ejemplos/NAHIR_MESTANZA_A3.jpg"
+                alt="Composición gráfica A3"
+                loading="lazy"
+              />
+              <div class="card-overlay">
+                <span class="card-title">Composición A3</span>
+                <span class="card-meta">Editorial</span>
+              </div>
+            </a>
+            <a
+              class="card"
+              data-category="editorial"
+              href="ejemplos/portada-album-vrs-2.jpg"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="card-cover"
+                src="ejemplos/portada-album-vrs-2.jpg"
+                alt="Portada de álbum versión 2"
+                loading="lazy"
+              />
+              <div class="card-overlay">
+                <span class="card-title">Portada álbum V2</span>
+                <span class="card-meta">Editorial</span>
+              </div>
+            </a>
+            <a
+              class="card"
+              data-category="editorial"
+              href="ejemplos/portada-album.jpg"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="card-cover"
+                src="ejemplos/portada-album.jpg"
+                alt="Portada de álbum"
+                loading="lazy"
+              />
+              <div class="card-overlay">
+                <span class="card-title">Portada álbum</span>
+                <span class="card-meta">Editorial</span>
+              </div>
+            </a>
+            <a
+              class="card"
+              data-category="social"
+              href="ejemplos/POST-IG-JEWELRY.jpg"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="card-cover"
+                src="ejemplos/POST-IG-JEWELRY.jpg"
+                alt="Post IG Jewelry"
+                loading="lazy"
+              />
+              <div class="card-overlay">
+                <span class="card-title">Post IG Jewelry</span>
+                <span class="card-meta">Social Media</span>
+              </div>
+            </a>
+            <a
+              class="card"
+              data-category="social"
+              href="ejemplos/post-ig-jordan-2.jpg"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="card-cover"
+                src="ejemplos/post-ig-jordan-2.jpg"
+                alt="Post IG Jordan"
+                loading="lazy"
+              />
+              <div class="card-overlay">
+                <span class="card-title">Post IG Jordan</span>
+                <span class="card-meta">Social Media</span>
+              </div>
+            </a>
+            <a
+              class="card"
+              data-category="editorial"
+              href="ejemplos/POSTER%2001.png"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="card-cover"
+                src="ejemplos/POSTER%2001.png"
+                alt="Póster 01"
+                loading="lazy"
+              />
+              <div class="card-overlay">
+                <span class="card-title">Póster 01</span>
+                <span class="card-meta">Editorial</span>
+              </div>
+            </a>
+            <a
+              class="card"
+              data-category="campanas"
+              href="ejemplos/PROYECTO%20VIH%203.pdf"
+              target="_blank"
+              rel="noopener"
+            >
+              <div class="card-cover pdf">
+                <span>PDF</span>
+                <span>Proyecto VIH</span>
+              </div>
+              <div class="card-overlay">
+                <span class="card-title">Proyecto VIH</span>
+                <span class="card-meta">Campañas</span>
+              </div>
+            </a>
+            <a
+              class="card"
+              data-category="editorial"
+              href="ejemplos/revista-%20grafica%20digital.pdf"
+              target="_blank"
+              rel="noopener"
+            >
+              <div class="card-cover pdf">
+                <span>PDF</span>
+                <span>Revista gráfica digital</span>
+              </div>
+              <div class="card-overlay">
+                <span class="card-title">Revista gráfica digital</span>
+                <span class="card-meta">Editorial</span>
+              </div>
+            </a>
+            <a
+              class="card"
+              data-category="branding"
+              href="ejemplos/STREETWEAR.jpg"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="card-cover"
+                src="ejemplos/STREETWEAR.jpg"
+                alt="Póster Streetwear"
+                loading="lazy"
+              />
+              <div class="card-overlay">
+                <span class="card-title">Streetwear</span>
+                <span class="card-meta">Branding</span>
+              </div>
+            </a>
+          </div>
         </div>
       </section>
 
-      <section id="contacto" class="section container reveal">
-        <div class="section-title">
-          <h2>Trabajemos juntos</h2>
-          <p>
-            Disponible para proyectos de diseno digital, branding y piezas para
-            redes sociales. Puedes descargar mi CV para mas informacion.
-          </p>
-        </div>
-        <div class="contact-card">
-          <div>
-            <h3>CV actualizado</h3>
-            <p>Descarga el PDF con experiencia completa y datos de contacto.</p>
+      <section id="proceso" class="section">
+        <div class="container">
+          <div class="section-header reveal">
+            <p class="eyebrow">Proceso creativo</p>
+            <h2>Método claro para convertir estrategia en diseño</h2>
+            <p>
+              Cada proyecto sigue un flujo ordenado para asegurar coherencia y
+              una identidad visual sólida.
+            </p>
           </div>
-          <a class="btn primary" href="cv_nahir.pdf" download>Descargar CV</a>
+          <div class="process-grid">
+            <article class="process-step reveal">
+              <span class="step-number">01</span>
+              <h3>Investigación</h3>
+              <p>Análisis de marca, audiencia y competencia.</p>
+            </article>
+            <article class="process-step reveal">
+              <span class="step-number">02</span>
+              <h3>Concepto</h3>
+              <p>Definición de narrativa visual y tono de la marca.</p>
+            </article>
+            <article class="process-step reveal">
+              <span class="step-number">03</span>
+              <h3>Desarrollo visual</h3>
+              <p>Sistemas gráficos, tipografía y composición digital.</p>
+            </article>
+            <article class="process-step reveal">
+              <span class="step-number">04</span>
+              <h3>Aplicación</h3>
+              <p>Adaptación a piezas digitales y consistencia de marca.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre" class="section">
+        <div class="container">
+          <div class="about-grid">
+            <div class="about-photo reveal">
+              <img
+                src="assets/nahir-profile.svg"
+                alt="Foto profesional de Nahir Mestanza"
+                loading="lazy"
+              />
+            </div>
+            <div class="about-text reveal">
+              <p class="eyebrow">Sobre mí</p>
+              <h2>
+                Diseñadora en formación con enfoque en identidad visual y
+                comunicación estratégica.
+              </h2>
+              <p>
+                Mi trabajo combina claridad visual, criterio editorial y una
+                mirada conceptual para construir marcas que se sientan actuales
+                y sólidas.
+              </p>
+              <p>
+                Aporto pensamiento estratégico, capacidad de adaptación a
+                tendencias y una ejecución detallada en cada pieza digital.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experiencia" class="section">
+        <div class="container">
+          <div class="section-header reveal">
+            <p class="eyebrow">Experiencia</p>
+            <h2>Impacto medible en gestión y diseño digital</h2>
+            <p>
+              Roles enfocados en orden, comunicación y ejecución visual con
+              enfoque en resultados.
+            </p>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <span class="timeline-date">2026 · Cooperativa CACSO</span>
+              <h3>Recepcionista</h3>
+              <p>
+                Gestion eficiente de atención al cliente y organización de
+                información estratégica para flujos internos.
+              </p>
+            </article>
+            <article class="timeline-item reveal">
+              <span class="timeline-date">2022 - 2025 · Freelance</span>
+              <h3>Diseñadora digital</h3>
+              <p>
+                Desarrollo de piezas para redes sociales y branding digital con
+                criterio de marca y consistencia visual.
+              </p>
+            </article>
+            <article class="timeline-item reveal">
+              <span class="timeline-date">2025 · UCAL Marketing</span>
+              <h3>Colaboración creativa</h3>
+              <p>
+                Producción de pieza gráfica alineada a lineamientos de marca y
+                requerimientos del equipo de marketing digital.
+              </p>
+            </article>
+            <article class="timeline-item reveal">
+              <span class="timeline-date">Experiencia previa</span>
+              <h3>Asistente de caja · Tottus</h3>
+              <p>
+                Gestion ordenada de operaciones y comunicación directa con
+                clientes para resolver necesidades con eficiencia.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="habilidades" class="section">
+        <div class="container">
+          <div class="section-header reveal">
+            <p class="eyebrow">Habilidades visuales</p>
+            <h2>Herramientas y competencias clave</h2>
+            <p>
+              Dominio técnico y criterio creativo para desarrollar piezas con
+              alto estándar profesional.
+            </p>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-card reveal">
+              <h3>Software</h3>
+              <div class="skill-list">
+                <div class="skill-item" style="--level: 90%">
+                  <span>Adobe Photoshop</span>
+                  <div class="skill-bar"><span></span></div>
+                </div>
+                <div class="skill-item" style="--level: 82%">
+                  <span>Adobe Illustrator</span>
+                  <div class="skill-bar"><span></span></div>
+                </div>
+                <div class="skill-item" style="--level: 75%">
+                  <span>Excel con macros</span>
+                  <div class="skill-bar"><span></span></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-card reveal">
+              <h3>Herramientas</h3>
+              <div class="skill-list">
+                <div class="skill-item" style="--level: 80%">
+                  <span>Flujos para redes sociales</span>
+                  <div class="skill-bar"><span></span></div>
+                </div>
+                <div class="skill-item" style="--level: 70%">
+                  <span>Recursos de IA creativa</span>
+                  <div class="skill-bar"><span></span></div>
+                </div>
+                <div class="skill-item" style="--level: 76%">
+                  <span>Organizacion de contenido</span>
+                  <div class="skill-bar"><span></span></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-card reveal">
+              <h3>Competencias creativas</h3>
+              <ul class="skill-tags">
+                <li>Dirección de arte digital</li>
+                <li>Identidad visual y branding</li>
+                <li>Composición editorial</li>
+                <li>Concepto y narrativa visual</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" class="section contact">
+        <div class="container">
+          <div class="section-header center reveal">
+            <p class="eyebrow">Contacto profesional</p>
+            <h2>Hablemos de tu próximo proyecto</h2>
+            <p>
+              Disponible para proyectos de branding, diseño digital y contenidos
+              estratégicos para marcas.
+            </p>
+          </div>
+          <div class="contact-grid">
+            <div class="contact-item reveal">
+              <span>Email</span>
+              <a href="mailto:tuemail@tudominio.com">tuemail@tudominio.com</a>
+            </div>
+            <div class="contact-item reveal">
+              <span>LinkedIn</span>
+              <a href="https://www.linkedin.com/in/tuusuario" target="_blank" rel="noopener">
+                linkedin.com/in/tuusuario
+              </a>
+            </div>
+            <div class="contact-item reveal">
+              <span>Instagram</span>
+              <a href="https://www.instagram.com/tuusuario" target="_blank" rel="noopener">
+                instagram.com/tuusuario
+              </a>
+            </div>
+          </div>
+          <div class="contact-actions reveal">
+            <a class="btn primary" href="cv_nahir.pdf" download>Descargar CV</a>
+            <a class="btn secondary" href="mailto:tuemail@tudominio.com">Enviar mensaje</a>
+          </div>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <div class="container">
-        <span>(c) 2026 Nahir Mestanza. Portafolio de Diseno Grafico.</span>
+      <div class="container footer-inner">
+        <span>© <span id="year"></span> Nahir Mestanza</span>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/tuusuario" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M6.94 6.5a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0ZM5.5 8.5H3V21h2.5V8.5ZM14.9 8.26c-1.34 0-2.24.74-2.6 1.42h-.04V8.5H9.86V21h2.5v-6.3c0-1.65.3-3.25 2.34-3.25 2.02 0 2.04 1.9 2.04 3.35V21h2.5v-6.72c0-3.3-.7-6.02-4.84-6.02Z"
+              />
+            </svg>
+          </a>
+          <a href="https://www.instagram.com/tuusuario" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M16.8 3H7.2A4.2 4.2 0 0 0 3 7.2v9.6A4.2 4.2 0 0 0 7.2 21h9.6a4.2 4.2 0 0 0 4.2-4.2V7.2A4.2 4.2 0 0 0 16.8 3Zm2.1 13.8a2.1 2.1 0 0 1-2.1 2.1H7.2a2.1 2.1 0 0 1-2.1-2.1V7.2a2.1 2.1 0 0 1 2.1-2.1h9.6a2.1 2.1 0 0 1 2.1 2.1Zm-6.9-8.1a4.2 4.2 0 1 0 4.2 4.2 4.2 4.2 0 0 0-4.2-4.2Zm0 6.9a2.7 2.7 0 1 1 2.7-2.7 2.7 2.7 0 0 1-2.7 2.7Zm4.65-7.98a1.02 1.02 0 1 0 1.02 1.02 1.02 1.02 0 0 0-1.02-1.02Z"
+              />
+            </svg>
+          </a>
+        </div>
       </div>
     </footer>
 
