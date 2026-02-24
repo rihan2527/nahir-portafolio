@@ -74,29 +74,6 @@ if (filterButtons.length && cards.length) {
   });
 }
 
-const themeToggle = document.querySelector(".theme-toggle");
-const savedTheme = localStorage.getItem("theme");
-
-if (savedTheme) {
-  document.body.dataset.theme = savedTheme;
-  if (themeToggle) {
-    const isDark = savedTheme === "dark";
-    themeToggle.setAttribute("aria-pressed", isDark ? "true" : "false");
-    themeToggle.textContent = isDark ? "Modo claro" : "Modo oscuro";
-  }
-}
-
-if (themeToggle) {
-  themeToggle.addEventListener("click", () => {
-    const isDark = document.body.dataset.theme === "dark";
-    const nextTheme = isDark ? "light" : "dark";
-    document.body.dataset.theme = nextTheme;
-    localStorage.setItem("theme", nextTheme);
-    themeToggle.setAttribute("aria-pressed", isDark ? "false" : "true");
-    themeToggle.textContent = isDark ? "Modo oscuro" : "Modo claro";
-  });
-}
-
 const yearEl = document.getElementById("year");
 if (yearEl) {
   yearEl.textContent = new Date().getFullYear();

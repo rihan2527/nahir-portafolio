@@ -32,15 +32,10 @@
       <nav class="nav container" aria-label="Navegación principal">
         <a class="logo" href="#inicio">Nahir Mestanza</a>
         <div class="nav-links">
-          <a href="#especialidades">Especialidades</a>
           <a href="#portfolio">Portafolio</a>
-          <a href="#proceso">Proceso</a>
           <a href="#sobre">Sobre mí</a>
           <a href="#contacto">Contacto</a>
         </div>
-        <button class="theme-toggle" type="button" aria-pressed="false">
-          Modo oscuro
-        </button>
       </nav>
     </div>
 
@@ -71,105 +66,6 @@
     </header>
 
     <main>
-      <section id="especialidades" class="section">
-        <div class="container">
-          <div class="section-header reveal">
-            <p class="eyebrow">Especialidades</p>
-            <h2>Áreas donde creo valor estratégico</h2>
-            <p>
-              Enfoco cada proyecto en construir significado, claridad visual y
-              consistencia para marcas con ambición de crecer.
-            </p>
-          </div>
-          <div class="specialties-grid">
-            <article class="specialty-card reveal">
-              <h3>Branding e identidad visual</h3>
-              <p>
-                Desarrollo sistemas visuales que ordenan la marca y elevan su
-                percepción en cada punto de contacto.
-              </p>
-              <span class="value">Valor: consistencia, posicionamiento y recordación.</span>
-            </article>
-            <article class="specialty-card reveal">
-              <h3>Diseño para redes sociales</h3>
-              <p>
-                Creo piezas editoriales y dinámicas que sostienen el mensaje de
-                marca y mejoran la conversión.
-              </p>
-              <span class="value">Valor: claridad, ritmo visual y engagement.</span>
-            </article>
-            <article class="specialty-card reveal">
-              <h3>Diseño editorial digital</h3>
-              <p>
-                Estructuro contenido con jerarquía tipográfica y narrativa
-                visual para comunicar ideas con impacto.
-              </p>
-              <span class="value">Valor: lectura fluida y coherencia conceptual.</span>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="caso" class="section case-study">
-        <div class="container">
-          <div class="section-header reveal">
-            <p class="eyebrow">Caso de estudio</p>
-            <h2>Calendario corporativo 3D</h2>
-            <p>
-              Un proyecto que combina identidad visual, detalle técnico y una
-              experiencia digital inmersiva.
-            </p>
-          </div>
-          <div class="case-grid">
-            <div class="case-text reveal">
-              <div class="case-block">
-                <h3>Problema</h3>
-                <p>
-                  Una minera necesitaba un calendario corporativo con presencia
-                  premium y recordación interna.
-                </p>
-              </div>
-              <div class="case-block">
-                <h3>Objetivo</h3>
-                <p>
-                  Crear una pieza coleccionable que refleje identidad de marca y
-                  detalle en cada mes.
-                </p>
-              </div>
-              <div class="case-block">
-                <h3>Proceso</h3>
-                <p>
-                  Dirección de arte, modelado 3D y ajustes de iluminación para
-                  lograr un acabado editorial.
-                </p>
-              </div>
-              <div class="case-block">
-                <h3>Solución</h3>
-                <p>
-                  Propuesta visual con texturas y composición limpia, integrada
-                  en un recorrido interactivo.
-                </p>
-              </div>
-              <div class="case-block">
-                <h3>Resultado</h3>
-                <p>
-                  Calendario aprobado y difundido como pieza premium dentro de
-                  la empresa.
-                </p>
-              </div>
-            </div>
-            <div class="case-media reveal">
-              <img
-                src="calendario/calendario-01.jpg.jpeg"
-                alt="Mockup del calendario corporativo 3D"
-                loading="lazy"
-              />
-              <a class="btn ghost" href="calendario-3d.html">Ver recorrido 3D</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section id="portfolio" class="section">
         <div class="container">
           <div class="section-header reveal">
@@ -224,6 +120,33 @@
           </div>
           <div class="portfolio-grid">
             <a
+              class="card featured"
+              data-category="branding"
+              href="calendario-3d.html"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                class="card-cover"
+                src="calendario/calendario-01.jpg.jpeg"
+                alt="Calendario 3D para minera 2026"
+                loading="lazy"
+              />
+              <div class="card-overlay">
+                <span class="card-title">Calendario minera 2026 (3D)</span>
+                <span class="card-desc">Proyecto premium para marca minera.</span>
+                <span class="card-meta">Branding</span>
+              </div>
+              <div class="card-preview">
+                <img
+                  src="calendario/calendario-02.jpg.jpeg"
+                  alt="Vista 3D del calendario corporativo"
+                  loading="lazy"
+                />
+                <span>Vista 3D</span>
+              </div>
+            </a>
+            <a
               class="card"
               data-category="branding"
               href="ejemplos/lottus-gloss.png"
@@ -238,6 +161,7 @@
               />
               <div class="card-overlay">
                 <span class="card-title">Lottus Gloss</span>
+                <span class="card-desc">Identidad visual y estilo digital.</span>
                 <span class="card-meta">Branding</span>
               </div>
             </a>
@@ -256,6 +180,7 @@
               />
               <div class="card-overlay">
                 <span class="card-title">Carrusel Garnier</span>
+                <span class="card-desc">Contenido para redes con enfoque editorial.</span>
                 <span class="card-meta">Social Media</span>
               </div>
             </a>
@@ -274,6 +199,7 @@
               />
               <div class="card-overlay">
                 <span class="card-title">Carrusel Joyería</span>
+                <span class="card-desc">Diseño de carrusel con ritmo visual.</span>
                 <span class="card-meta">Social Media</span>
               </div>
             </a>
@@ -290,6 +216,7 @@
               </div>
               <div class="card-overlay">
                 <span class="card-title">Combo Hello Kitty x KFC</span>
+                <span class="card-desc">Campaña digital con branding pop.</span>
                 <span class="card-meta">Campañas</span>
               </div>
             </a>
@@ -308,6 +235,7 @@
               />
               <div class="card-overlay">
                 <span class="card-title">Flyer D</span>
+                <span class="card-desc">Pieza promocional para social media.</span>
                 <span class="card-meta">Social Media</span>
               </div>
             </a>
@@ -326,6 +254,7 @@
               />
               <div class="card-overlay">
                 <span class="card-title">Invitación de boda</span>
+                <span class="card-desc">Composición editorial delicada y clara.</span>
                 <span class="card-meta">Editorial</span>
               </div>
             </a>
@@ -344,6 +273,7 @@
               />
               <div class="card-overlay">
                 <span class="card-title">Composición A3</span>
+                <span class="card-desc">Exploración gráfica con enfoque editorial.</span>
                 <span class="card-meta">Editorial</span>
               </div>
             </a>
@@ -362,6 +292,7 @@
               />
               <div class="card-overlay">
                 <span class="card-title">Portada álbum V2</span>
+                <span class="card-desc">Dirección visual para pieza musical.</span>
                 <span class="card-meta">Editorial</span>
               </div>
             </a>
@@ -380,6 +311,7 @@
               />
               <div class="card-overlay">
                 <span class="card-title">Portada álbum</span>
+                <span class="card-desc">Identidad visual para lanzamiento musical.</span>
                 <span class="card-meta">Editorial</span>
               </div>
             </a>
@@ -398,6 +330,7 @@
               />
               <div class="card-overlay">
                 <span class="card-title">Post IG Jewelry</span>
+                <span class="card-desc">Diseño de post con estética premium.</span>
                 <span class="card-meta">Social Media</span>
               </div>
             </a>
@@ -416,6 +349,7 @@
               />
               <div class="card-overlay">
                 <span class="card-title">Post IG Jordan</span>
+                <span class="card-desc">Diseño deportivo con enfoque dinámico.</span>
                 <span class="card-meta">Social Media</span>
               </div>
             </a>
@@ -434,6 +368,7 @@
               />
               <div class="card-overlay">
                 <span class="card-title">Póster 01</span>
+                <span class="card-desc">Póster editorial con composición limpia.</span>
                 <span class="card-meta">Editorial</span>
               </div>
             </a>
@@ -450,6 +385,7 @@
               </div>
               <div class="card-overlay">
                 <span class="card-title">Proyecto VIH</span>
+                <span class="card-desc">Campaña informativa de impacto social.</span>
                 <span class="card-meta">Campañas</span>
               </div>
             </a>
@@ -466,6 +402,7 @@
               </div>
               <div class="card-overlay">
                 <span class="card-title">Revista gráfica digital</span>
+                <span class="card-desc">Diseño editorial en formato digital.</span>
                 <span class="card-meta">Editorial</span>
               </div>
             </a>
@@ -484,44 +421,10 @@
               />
               <div class="card-overlay">
                 <span class="card-title">Streetwear</span>
+                <span class="card-desc">Concepto visual para marca urbana.</span>
                 <span class="card-meta">Branding</span>
               </div>
             </a>
-          </div>
-        </div>
-      </section>
-
-      <section id="proceso" class="section">
-        <div class="container">
-          <div class="section-header reveal">
-            <p class="eyebrow">Proceso creativo</p>
-            <h2>Método claro para convertir estrategia en diseño</h2>
-            <p>
-              Cada proyecto sigue un flujo ordenado para asegurar coherencia y
-              una identidad visual sólida.
-            </p>
-          </div>
-          <div class="process-grid">
-            <article class="process-step reveal">
-              <span class="step-number">01</span>
-              <h3>Investigación</h3>
-              <p>Análisis de marca, audiencia y competencia.</p>
-            </article>
-            <article class="process-step reveal">
-              <span class="step-number">02</span>
-              <h3>Concepto</h3>
-              <p>Definición de narrativa visual y tono de la marca.</p>
-            </article>
-            <article class="process-step reveal">
-              <span class="step-number">03</span>
-              <h3>Desarrollo visual</h3>
-              <p>Sistemas gráficos, tipografía y composición digital.</p>
-            </article>
-            <article class="process-step reveal">
-              <span class="step-number">04</span>
-              <h3>Aplicación</h3>
-              <p>Adaptación a piezas digitales y consistencia de marca.</p>
-            </article>
           </div>
         </div>
       </section>
@@ -551,6 +454,14 @@
                 Aporto pensamiento estratégico, capacidad de adaptación a
                 tendencias y una ejecución detallada en cada pieza digital.
               </p>
+              <div class="about-specialties">
+                <p class="about-label">Especialidades</p>
+                <ul class="about-tags">
+                  <li>Branding e identidad visual</li>
+                  <li>Diseño para redes sociales</li>
+                  <li>Diseño editorial digital</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -571,7 +482,7 @@
               <span class="timeline-date">2026 · Cooperativa CACSO</span>
               <h3>Recepcionista</h3>
               <p>
-                Gestion eficiente de atención al cliente y organización de
+                Gestión eficiente de atención al cliente y organización de
                 información estratégica para flujos internos.
               </p>
             </article>
@@ -595,7 +506,7 @@
               <span class="timeline-date">Experiencia previa</span>
               <h3>Asistente de caja · Tottus</h3>
               <p>
-                Gestion ordenada de operaciones y comunicación directa con
+                Gestión ordenada de operaciones y comunicación directa con
                 clientes para resolver necesidades con eficiencia.
               </p>
             </article>
@@ -643,7 +554,7 @@
                   <div class="skill-bar"><span></span></div>
                 </div>
                 <div class="skill-item" style="--level: 76%">
-                  <span>Organizacion de contenido</span>
+                  <span>Organización de contenido</span>
                   <div class="skill-bar"><span></span></div>
                 </div>
               </div>
@@ -674,24 +585,40 @@
           <div class="contact-grid">
             <div class="contact-item reveal">
               <span>Email</span>
-              <a href="mailto:tuemail@tudominio.com">tuemail@tudominio.com</a>
+              <a href="mailto:nahirmestanza23@gmail.com">nahirmestanza23@gmail.com</a>
             </div>
             <div class="contact-item reveal">
               <span>LinkedIn</span>
-              <a href="https://www.linkedin.com/in/tuusuario" target="_blank" rel="noopener">
-                linkedin.com/in/tuusuario
+              <a
+                href="https://www.linkedin.com/in/nahir-mestanza-1580571a8/"
+                target="_blank"
+                rel="noopener"
+              >
+                linkedin.com/in/nahir-mestanza-1580571a8
               </a>
             </div>
             <div class="contact-item reveal">
               <span>Instagram</span>
-              <a href="https://www.instagram.com/tuusuario" target="_blank" rel="noopener">
-                instagram.com/tuusuario
+              <a
+                href="https://www.instagram.com/nahir_mestanza25/"
+                target="_blank"
+                rel="noopener"
+              >
+                instagram.com/nahir_mestanza25
+              </a>
+            </div>
+            <div class="contact-item reveal">
+              <span>WhatsApp</span>
+              <a href="https://wa.me/51906965929" target="_blank" rel="noopener">
+                +51 906 965 929
               </a>
             </div>
           </div>
           <div class="contact-actions reveal">
             <a class="btn primary" href="cv_nahir.pdf" download>Descargar CV</a>
-            <a class="btn secondary" href="mailto:tuemail@tudominio.com">Enviar mensaje</a>
+            <a class="btn secondary" href="https://wa.me/51906965929">
+              Enviar mensaje
+            </a>
           </div>
         </div>
       </section>
@@ -701,14 +628,24 @@
       <div class="container footer-inner">
         <span>© <span id="year"></span> Nahir Mestanza</span>
         <div class="footer-social">
-          <a href="https://www.linkedin.com/in/tuusuario" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <a
+            href="https://www.linkedin.com/in/nahir-mestanza-1580571a8/"
+            target="_blank"
+            rel="noopener"
+            aria-label="LinkedIn"
+          >
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path
                 d="M6.94 6.5a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0ZM5.5 8.5H3V21h2.5V8.5ZM14.9 8.26c-1.34 0-2.24.74-2.6 1.42h-.04V8.5H9.86V21h2.5v-6.3c0-1.65.3-3.25 2.34-3.25 2.02 0 2.04 1.9 2.04 3.35V21h2.5v-6.72c0-3.3-.7-6.02-4.84-6.02Z"
               />
             </svg>
           </a>
-          <a href="https://www.instagram.com/tuusuario" target="_blank" rel="noopener" aria-label="Instagram">
+          <a
+            href="https://www.instagram.com/nahir_mestanza25/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Instagram"
+          >
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path
                 d="M16.8 3H7.2A4.2 4.2 0 0 0 3 7.2v9.6A4.2 4.2 0 0 0 7.2 21h9.6a4.2 4.2 0 0 0 4.2-4.2V7.2A4.2 4.2 0 0 0 16.8 3Zm2.1 13.8a2.1 2.1 0 0 1-2.1 2.1H7.2a2.1 2.1 0 0 1-2.1-2.1V7.2a2.1 2.1 0 0 1 2.1-2.1h9.6a2.1 2.1 0 0 1 2.1 2.1Zm-6.9-8.1a4.2 4.2 0 1 0 4.2 4.2 4.2 4.2 0 0 0-4.2-4.2Zm0 6.9a2.7 2.7 0 1 1 2.7-2.7 2.7 2.7 0 0 1-2.7 2.7Zm4.65-7.98a1.02 1.02 0 1 0 1.02 1.02 1.02 1.02 0 0 0-1.02-1.02Z"
